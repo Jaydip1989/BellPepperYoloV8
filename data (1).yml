@@ -1,0 +1,14 @@
+train: /content/drive/MyDrive/Bell_Pepper_Leaf_Disease.v1i.yolov8/data/train/images
+val: /content/drive/MyDrive/Bell_Pepper_Leaf_Disease.v1i.yolov8/data/valid/images
+#test: /test/images
+
+nc: 2
+names: ['bacterial_spot', 'healthy']
+
+roboflow:
+  workspace: deep-hdtdq
+  project: bell_pepper_leaf_disease
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/deep-hdtdq/bell_pepper_leaf_disease/dataset/1
+  
